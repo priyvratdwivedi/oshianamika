@@ -55,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 searchView.onActionViewExpanded();
+                Toast.makeText(MainActivity.this, "this is toast", Toast.LENGTH_SHORT).show();
 
             }
     });
